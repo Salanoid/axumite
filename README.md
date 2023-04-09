@@ -1,12 +1,14 @@
 # axumite
 
-## For development
-You should install cargo-watch crate by running this in your terminal: `cargo install cargo-watch`
 
-To build, run and watch the changes run in the root: `cd axumite; cargo watch -q -c -w src/ -x run`
+## For development purposes:
 
-To run a test client request with cargo-watch you have to run: `cd axumite; cargo watch -q -c -w tests/ -x "test -q client_test -- --nocapture"`
+To install the cargo-watch crate, run the following command in your terminal: cargo install cargo-watch
 
-You have to run both cargo-watch commands, first you will have to run the first one. In that way you will have the server running. The second one will run the test client which will basically do some http requests to the server.
+To build, run, and monitor changes, navigate to the root directory and run: cd axumite; cargo watch -q -c -w src/ -x run
 
-#TODO make a script that runs both
+To run a test client request using cargo-watch, navigate to the root directory and run: cd axumite; cargo watch -q -c -w tests/ -x "test -q client_test -- --nocapture"
+
+Both cargo-watch commands need to be run. First, run the first command to start the server. Then, run the second command to run the test client, which will perform HTTP requests to the server.
+
+#TODO Create a script that runs both commands.
