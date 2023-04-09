@@ -6,11 +6,11 @@
 version: 2
 updates:
   - package-ecosystem: "cargo" # See documentation for possible values
-  directory: "/" # Location of package manifests
-  schedule:
-    interval: "weekly"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
     ignore:
-      # These are peer deps of Cargo and should not be automatically bumped
-      - dependency-name: "crates-io"
+        # These are peer deps of Cargo and should not be automatically bumped
+        - dependency-name: "crates-io"
     open-pull-requests-limit: 10    
     rebase-strategy: "disabled"
