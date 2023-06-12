@@ -361,9 +361,9 @@ checksum = "d897f394bad6a705d5f4104762e116a75639e470d80901eed05a860a95cb1904"
 
 [[package]]
 name = "httpc-test"
-version = "0.1.2"
+version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "106ce35fa3462fc80e08e2ab46d36aefd1850b873905b3a73239c0867a9fabf8"
+checksum = "3923fd59a034a7754fea40292d27f56e57da3c8d523d77860f3d982a3455288c"
 dependencies = [
  "cookie",
  "http",
